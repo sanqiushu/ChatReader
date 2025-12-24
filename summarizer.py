@@ -168,7 +168,8 @@ class SummaryGenerator:
         # 找出最活跃的时间段
         if profile.active_time_distribution:
             most_active_hour = max(profile.active_time_distribution.items(), key=lambda x: x[1])[0]
-            active_time_str = f"{most_active_hour}:00-{most_active_hour+1}:00"
+            end_hour = 0 if most_active_hour == 23 else most_active_hour + 1
+            active_time_str = f"{most_active_hour}:00-{end_hour}:00"
         else:
             active_time_str = "未知"
         
