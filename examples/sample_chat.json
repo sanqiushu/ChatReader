@@ -1,0 +1,42 @@
+[
+  {
+    "message_id": "1",
+    "user_id": "user_001",
+    "user_name": "张三",
+    "content": "大家好！今天天气真不错",
+    "timestamp": "2023-12-24 10:30:45",
+    "message_type": "text"
+  },
+  {
+    "message_id": "2",
+    "user_id": "user_002",
+    "user_name": "李四",
+    "content": "你好啊，确实很晴朗",
+    "timestamp": "2023-12-24 10:31:12",
+    "message_type": "text"
+  },
+  {
+    "message_id": "3",
+    "user_id": "user_003",
+    "user_name": "王五",
+    "content": "早上好，有人想去爬山吗？",
+    "timestamp": "2023-12-24 10:32:30",
+    "message_type": "text"
+  },
+  {
+    "message_id": "4",
+    "user_id": "user_001",
+    "user_name": "张三",
+    "content": "我可以去！什么时候出发？",
+    "timestamp": "2023-12-24 10:33:15",
+    "message_type": "text"
+  },
+  {
+    "message_id": "5",
+    "user_id": "user_002",
+    "user_name": "李四",
+    "content": "我也想去，周末怎么样？",
+    "timestamp": "2023-12-24 10:34:20",
+    "message_type": "text"
+  }
+]
